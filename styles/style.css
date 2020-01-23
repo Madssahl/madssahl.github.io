@@ -1,0 +1,39 @@
+html {
+    font-size: 11px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: #151318;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: darkslategrey;
+    padding: 0 20px 20px 20px;
+    border: 5px dimgray;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 0 3px 5px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+#subh1 {
+    font-size: 24px;
+    font-stretch: 200px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
