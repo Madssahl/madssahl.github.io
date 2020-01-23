@@ -1,39 +1,67 @@
 html {
-    font-size: 11px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    background-color: #151318;
-}
-
-body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: darkslategrey;
-    padding: 0 20px 20px 20px;
-    border: 5px dimgray;
-}
-
-h1 {
-    margin: 0;
-    padding: 20px 0;
-    text-shadow: 0 3px 5px black;
-    font-size: 60px;
-    text-align: center;
-}
-
-p, li {
-    font-size: 16px;
+    background-color: #0E0B11;
     line-height: 1.5;
-    letter-spacing: 1px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    background-image: image("images/mountains.png");
+    overflow: hidden;
 }
 
-#subh1 {
-    font-size: 24px;
-    font-stretch: 200px;
-    text-align: center;
+#mountains {
+    max-width: 100%;
+    height: auto;
 }
 
-img {
+#title {
+    font-size: 70px;
+    text-shadow: 3px 3px 9px black;
+    margin-bottom: -30px;
+}
+
+#subtitle {
+    font-size: 20px;
+    text-shadow: 3px 3px 9px black;
+    margin-left: 5px;
+}
+
+#mountains {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#mig {
+    width: 225px;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    margin: 0 auto;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    margin-top: 70px;
+}
+  
+.tablink:hover {
+    background-color: #777;
+}
+
+.solid {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    padding: 5px;
+    margin: auto;
 }
